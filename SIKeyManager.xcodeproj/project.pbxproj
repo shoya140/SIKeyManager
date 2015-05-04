@@ -40,6 +40,8 @@
 		C639967C1AF7242E00CCA23C /* SIKeyManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIKeyManagerTests.swift; sourceTree = "<group>"; };
 		C63996861AF7244800CCA23C /* SIKeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIKeyManager.swift; sourceTree = "<group>"; };
 		C6994BBC1AF7582D00CB74C3 /* key.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = key.json; path = ../key.json; sourceTree = "<group>"; };
+		C6AA4CF01AF81D2E00113217 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		C6AA4CF11AF81E2600113217 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,8 @@
 				C639966D1AF7242E00CCA23C /* Images.xcassets */,
 				C639966F1AF7242E00CCA23C /* LaunchScreen.xib */,
 				C6994BBC1AF7582D00CB74C3 /* key.json */,
+				C6AA4CF01AF81D2E00113217 /* Key.h */,
+				C6AA4CF11AF81E2600113217 /* Bridging-Header.h */,
 				C63996641AF7242E00CCA23C /* Supporting Files */,
 			);
 			path = SIKeyManager;
@@ -351,6 +355,7 @@
 				INFOPLIST_FILE = SIKeyManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -361,6 +366,7 @@
 				INFOPLIST_FILE = SIKeyManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 			};
 			name = Release;
 		};

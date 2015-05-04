@@ -12,9 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // key manager
         let keyManager = SIKeyManager()
         println(keyManager.clientKey)
         println(keyManager.clientSecret)
+        
+        // header file
+        println(CLIENT_KEY)
+        println(CLIENT_SECRET)
     }
 
     override func didReceiveMemoryWarning() {
