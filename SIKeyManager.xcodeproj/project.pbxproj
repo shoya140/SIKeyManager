@@ -13,6 +13,8 @@
 		C639966E1AF7242E00CCA23C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C639966D1AF7242E00CCA23C /* Images.xcassets */; };
 		C63996711AF7242E00CCA23C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C639966F1AF7242E00CCA23C /* LaunchScreen.xib */; };
 		C639967D1AF7242E00CCA23C /* SIKeyManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C639967C1AF7242E00CCA23C /* SIKeyManagerTests.swift */; };
+		C63996871AF7244800CCA23C /* SIKeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63996861AF7244800CCA23C /* SIKeyManager.swift */; };
+		C6994BBD1AF7582D00CB74C3 /* key.json in Resources */ = {isa = PBXBuildFile; fileRef = C6994BBC1AF7582D00CB74C3 /* key.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		C63996761AF7242E00CCA23C /* SIKeyManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SIKeyManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C639967B1AF7242E00CCA23C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C639967C1AF7242E00CCA23C /* SIKeyManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIKeyManagerTests.swift; sourceTree = "<group>"; };
+		C63996861AF7244800CCA23C /* SIKeyManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SIKeyManager.swift; sourceTree = "<group>"; };
+		C6994BBC1AF7582D00CB74C3 /* key.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = key.json; path = ../key.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,11 @@
 			children = (
 				C63996661AF7242E00CCA23C /* AppDelegate.swift */,
 				C63996681AF7242E00CCA23C /* ViewController.swift */,
+				C63996861AF7244800CCA23C /* SIKeyManager.swift */,
 				C639966A1AF7242E00CCA23C /* Main.storyboard */,
 				C639966D1AF7242E00CCA23C /* Images.xcassets */,
 				C639966F1AF7242E00CCA23C /* LaunchScreen.xib */,
+				C6994BBC1AF7582D00CB74C3 /* key.json */,
 				C63996641AF7242E00CCA23C /* Supporting Files */,
 			);
 			path = SIKeyManager;
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C639966C1AF7242E00CCA23C /* Main.storyboard in Resources */,
+				C6994BBD1AF7582D00CB74C3 /* key.json in Resources */,
 				C63996711AF7242E00CCA23C /* LaunchScreen.xib in Resources */,
 				C639966E1AF7242E00CCA23C /* Images.xcassets in Resources */,
 			);
@@ -212,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63996871AF7244800CCA23C /* SIKeyManager.swift in Sources */,
 				C63996691AF7242E00CCA23C /* ViewController.swift in Sources */,
 				C63996671AF7242E00CCA23C /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +417,7 @@
 				C63996821AF7242E00CCA23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C63996831AF7242E00CCA23C /* Build configuration list for PBXNativeTarget "SIKeyManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				C63996851AF7242E00CCA23C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
